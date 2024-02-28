@@ -1,0 +1,127 @@
+@charset "uft-8";
+
+
+@font-face {
+    font-family: Architects Daughter;
+    src: url('Architects Daughter.woff') format ('woff'),
+         url('Architects Daughter.ttf') format ('truetype');
+}
+
+
+/*header stylings*/
+.header{
+    padding: 30px;
+    text-align: center;
+    background: #2493d8;
+    color: white;
+    font-size: 20px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+/* nav bar styling */
+a:link {    /* unvisited link */
+    color: #583aa8;
+    text-decoration: none;
+    border-bottom: 1px solid;
+}
+a:visited {    /* visited link */
+    color: #7243e0;
+}
+a:hover {    /* mouse over link */
+    color: #d5dce1;
+    border-bottom: none;
+    text-decoration-style: none;
+}
+a:active {    /* active link */
+    color: #384bb4;
+}
+.topnav {
+    overflow: hidden;
+    background-color: rgb(126, 143, 221);
+    border: 2px solid rgb(66, 121, 216);
+    padding: 10px;
+    border-radius: 25px;
+
+  }
+  .topnav a {
+    float: center;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+
+  /*Column and row for cart page*/
+  .column {
+    float: left;
+    padding: 10px;
+   /* height: 300px;  Should be removed. Only for demonstration */
+  }
+  
+  .left {
+    width: 48%;
+  }
+  
+  .right {
+    width: 48%;
+  }
+  
+
+/*Styling for gallery*/
+  div.gallery {
+    margin: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+
+  /*shopping button styling*/
+.button{
+  float: right;
+}
+
+.searchBar{
+  float: right;
+
+}
+
+
+
+/*Form styling*/
+legend {
+  border-bottom: 1px solid lightgray;
+}
+
+label {
+  text-align: right;
+}
+
+input, select {
+  margin-left: 10px;
+}
+
+.form-group {
+  margin-left: 25px;
+}

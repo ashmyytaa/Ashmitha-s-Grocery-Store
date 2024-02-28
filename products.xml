@@ -1,0 +1,225 @@
+<products>
+    <category>
+        <catId>0</catId>
+        <catName>Fruits</catName>
+        <items>
+            <item>
+                <itemId>0</itemId>
+                <itemTitle>Apple</itemTitle>
+                <unitPrice>1.99</unitPrice>
+                <make>Canada</make>
+                <thumbnail>apple.png</thumbnail>
+            </item>
+
+            <item>
+                <itemId>6</itemId>
+                <itemTitle>Strawberry</itemTitle>
+                <unitPrice>2.99</unitPrice>
+                <make>Jamaica</make>
+                <thumbnail>strawberry.png</thumbnail>
+            </item>
+
+            <item>
+                <itemId>7</itemId>
+                <itemTitle>Mango/itemTitle>
+                <unitPrice>0.99</unitPrice>
+                <make>Sri Lanka</make>
+                <thumbnail>mango.png</thumbnail>
+            </item>    
+        </items>
+    </category>
+
+    <category>
+        <catId>1</catId>
+        <catName>Dairy</catName>
+        <items>
+            <item>
+                <itemId>1</itemId>
+                <itemTitle>Milk</itemTitle>
+                <unitPrice>2.99</unitPrice>
+                <make>Sony</make>
+                <thumbnail>milk.png</thumbnail>
+            </item>
+  </items>
+    </category>
+
+<category>
+<items>
+<catId>88</catId>
+        <catName>Whole Grains</catName>
+            <item>
+                <itemId>2</itemId>
+                <itemTitle>Rice</itemTitle>
+                                <unitPrice>1.99</unitPrice>
+
+                <make>Mexico</make>
+                <thumbnail>rice.png</thumbnail>
+            </item>
+
+            <item>
+                <itemId>3</itemId>
+                <itemTitle>Bread</itemTitle>
+                                <unitPrice>1.50</unitPrice>
+
+                <make>Nigeria</make>
+                <thumbnail>bread.png</thumbnail>
+            </item>
+                        </items>
+
+          </category>
+
+
+    <category>
+        <catId>2</catId>
+        <catName>Sweets</catName>
+        <items>
+            <item>
+                <itemId>4</itemId>
+                <itemTitle>Cake</itemTitle>
+                <unitPrice>20.00</unitPrice>
+                <make>Italy</make>
+                <thumbnail>cake(1).png</thumbnail>
+            </item>
+
+            <item>
+                <itemId>5</itemId>
+                <itemTitle>Ice cream</itemTitle>
+                <unitPrice>4.99</unitPrice>
+                <make>Spain</make>
+                <thumbnail>icecream.png</thumbnail>
+            </item>
+
+             <item>
+                <itemId>33</itemId>
+                <itemTitle>Pie</itemTitle>
+                <unitPrice>2.50</unitPrice>
+                <make>Germany</make>
+                <thumbnail>pie.png</thumbnail>
+            </item>
+        </items>
+    </category>
+
+    <category>
+        <catId>3</catId>
+        <catName>Seafood</catName>
+        <items>
+            <item>
+                <itemId>13</itemId>
+                <itemTitle>Lobster</itemTitle>
+                <unitPrice>19.99</unitPrice>
+                <make>Japan</make>
+                <thumbnail>lobster (1).png</thumbnail>
+            </item>
+
+            <item>
+                <itemId>14</itemId>
+                <itemTitle>Shrimp</itemTitle>
+                <unitPrice>15.99</unitPrice>
+                <make>India</make>
+                <thumbnail>shrimp.png</thumbnail>
+            </item>
+        </items>
+    </category>
+
+    <category>
+        <catId>4</catId>
+        <catName>Drink</catName>
+        <items>
+            <item>
+                <itemId>8</itemId>
+                <itemTitle>Water</itemTitle>
+                <unitPrice>0.50</unitPrice>
+                <make>Florida</make>
+                <thumbnail>water.png</thumbnail>
+            </item>
+
+             <item>
+                <itemId>8</itemId>
+                <itemTitle>Coffee</itemTitle>
+                <unitPrice>1.00</unitPrice>
+                <make>Canada</make>
+                <thumbnail>coffee.png</thumbnail>
+            </item>
+
+
+        </items>
+    </category>
+
+    <category>
+        <catId>5</catId>
+        <catName>Vegetable</catName>
+        <items>
+            <item>
+                <itemId>9</itemId>
+                <itemTitle>Carrot</itemTitle>
+                <unitPrice>3.99</unitPrice>
+                                <make>Canada</make>
+
+                <thumbnail>carrot.png</thumbnail>
+            </item>
+
+ <item>
+                <itemId>9</itemId>
+                <itemTitle>Carrot</itemTitle>
+                <unitPrice>3.99</unitPrice>
+                                <make>Canada</make>
+
+                <thumbnail>carrot.png</thumbnail>
+            </item>
+
+             <item>
+                <itemId>10</itemId>
+                <itemTitle>Cucumber</itemTitle>
+                <unitPrice>2.99</unitPrice>
+                                <make>Canada</make>
+
+                <thumbnail>cucumber.png</thumbnail>
+            </item>
+
+             <item>
+                <itemId>11</itemId>
+                <itemTitle>Celery</itemTitle>
+                <unitPrice>1.99</unitPrice>
+                                <make>Lebanon</make>
+
+                <thumbnail>celery.png</thumbnail>
+            </item>
+        </items>
+    </category>
+
+    <category>
+        <catId>6</catId>
+        <catName>Meat</catName>
+        <items>
+            <item>
+                <itemId>10</itemId>
+                <itemTitle>Chicken</itemTitle>
+                <unitPrice>9.99</unitPrice>
+                <make>England</make>
+                <thumbnail>chicken.png</thumbnail>
+            </item>
+
+            <item>
+                <itemId>12</itemId>
+                <itemTitle>Lamb</itemTitle>
+                <unitPrice>7.99</unitPrice>
+                <make>Portugal</make>
+                <thumbnail>lamb.png</thumbnail>
+            </item>
+
+
+              <item>
+                <itemId>12</itemId>
+                <itemTitle>Beef</itemTitle>
+                <unitPrice>6.99</unitPrice>
+                <make>Thailand</make>
+                <thumbnail>beef.png</thumbnail>
+            </item>
+        </items>
+    </category>
+
+         
+
+
+
+</products>

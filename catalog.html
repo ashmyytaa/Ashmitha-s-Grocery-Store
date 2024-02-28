@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+<title>Grocery Catalog</title>
+<meta charset="utf-8"> 
+ <link rel="stylesheet" href="styling.css">
+ <script src="cart.js" async></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        
+ </head>
+
+
+
+<body>
+<body style="background-color:rgb(67, 154, 225);"></body>
+
+<header>
+<div class = "header">
+<center><h1>Ashmitha's Grocery Store</h1></center>
+</div>
+</header>
+<br>
+
+<!--Navigation bar-->
+<nav>
+<div class = "topnav">
+<center>
+<a href="cart.html">Cart</a>
+<a href="form.html">Form</a>
+
+
+<div class="searchBar">
+<form action="/action_page.php">
+<input type="text" placeholder="Search..." name="search">
+</form>
+</div> 
+
+</nav>  
+ </center> 
+</div> 
+
+<br>
+<div class="button">
+<button type="button" class="btn btn-default btn-sm"  onclick=" window.open('cart.html','_blank')">
+<span class="glyphicon glyphicon-shopping-cart"></span> Shopping Cart
+</button>    
+</div>
+<br>
+<br>
+
+<body onload="setUpCart()">
+    <div class="container">
+        <div id="navButtons">
+            <button id="loadPageBtn" class="btn btn-secondary" onclick="showListOfItems()">Home: <i class="fas fa-laptop-house"></i></button>
+            <button id="cartBtn" class="btn btn-primary" onclick="viewCart()">View Cart: <i class="fas fa-shopping-cart"></i></button>
+            <div id="searchBox">
+                <input type="search" id="textbox">
+                <button id="searchBtn" class="btn btn-dark" onclick="searchByKeyword()"><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+        <div id="alertBox"></div>
+        <div id="itemsCards"></div>
+    </div>
+</body>
+
+
+
+
+
+<div class="gallery">
+<a target="_blank" href="apple.png">
+<img src="apple.png" alt="" width="200" height="200">
+</a>
+<div class="desc">Apple
+<label for="quantity"></label>
+<input type="number" id="quantity" name="quantity" min="1" max="5">
+<button type="button"> &#xf07a; </button>
+</div>
+</div>
+   
+<div class="gallery">
+<a target="_blank" href="milk.png">
+<img src="milk.png" alt="" width="200" height="200">
+</a>
+<div class="desc">Milk
+<label for="quantity"></label>
+<input type="number" id="quantity" name="quantity" min="1" max="5">
+</div>
+</div>
+
+<div class="gallery">
+<a target="_blank" href="cake (1).png">
+<img src="cake (1).png" alt="" width="200" height="200">
+</a>
+<div class="desc">Cake
+<label for="quantity"></label>
+<input type="number" id="quantity" name="quantity" min="1" max="5">
+</div>
+</div>
+
+<div class="gallery">
+<a target="_blank" href="lobster (1).png">
+<img src="lobster (1).png" alt="" width="200" height="200">
+</a>
+ <div class="desc">Lobster
+<label for="quantity"></label>
+<input type="number" id="quantity" name="quantity" min="1" max="5">
+ </div>
+</div>
+    
+<div class="gallery">
+<a target="_blank" href="water.png">
+<img src="water.png" alt="" width="200" height="200">
+</a>
+<div class="desc">Water
+<label for="quantity"></label>
+<input type="number" id="quantity" name="quantity" min="1" max="5">
+</div>
+</div>
+    
+<div class="gallery">
+<a target="_blank" href="carrot.png">
+<img src="carrot.png" alt="" width="200" height="200">
+</a>
+<div class="desc">Carrot
+<label for="quantity"></label>
+<input type="number" id="quantity" name="quantity" min="1" max="5">
+</div>
+</div>
+    
+
+<div class="gallery">
+<a target="_blank" href="shrimp.png">
+<img src="shrimp.png" alt="" width="200" height="200">
+</a>
+<div class="desc">Shrimp
+<label for="quantity"></label>
+<input type="number" id="quantity" name="quantity" min="1" max="5">
+</div>
+</div>
+    
+<div class="gallery">
+<a target="_blank" href="bread.png">
+<img src="bread.png" alt="" width="200" height="200">
+</a>
+<div class="desc">Bread
+<label for="quantity"></label>
+<input type="number" id="quantity" name="quantity" min="1" max="5">
+</div>
+</div>
+    
+<div class="gallery">
+<a target="_blank" href="cucumber.png">
+<img src="cucumber.png" alt="" width="200" height="200">
+</a>
+<div class="desc">Cucumber
+<label for="quantity"></label>
+<input type="number" id="quantity" name="quantity" min="1" max="5">
+</div>
+</div>
+        
+<div class="gallery">
+<a target="_blank" href="celery.png">
+<img src="celery.png" alt="" width="200" height="200">
+</a>
+<div class="desc">Celery
+<label for="quantity"></label>
+<input type="number" id="quantity" name="quantity" min="1" max="5">
+</div>
+</div>
+        
+    <div class="gallery">
+    <a target="_blank" href="pie.png">
+    <img src="pie.png" alt="" width="200" height="200">
+    </a>
+    <div class="desc">Pie
+    <label for="quantity"></label>
+    <input type="number" id="quantity" name="quantity" min="1" max="5">
+    </div>
+    </div>
+
+
+    <div class="gallery">
+    <a target="_blank" href="chicken.png">
+    <img src="chicken.png" alt="" width="200" height="200">
+    </a>
+    <div class="desc">Chicken
+    <label for="quantity"></label>
+    <input type="number" id="quantity" name="quantity" min="1" max="5">
+    </div>
+    </div>
+        
+    <div class="gallery">
+    <a target="_blank" href="strawberry.png">
+    <img src="strawberry.png" alt="" width="200" height="200">
+    </a>
+    <div class="desc">Strawberry
+    <label for="quantity"></label>
+    <input type="number" id="quantity" name="quantity" min="1" max="5">
+    </div>
+    </div>
+        
+    <div class="gallery">
+    <a target="_blank" href="coffee.png">
+    <img src="coffee.png" alt="" width="200" height="200">
+    </a>
+    <div class="desc">Coffee
+    <label for="quantity"></label>
+    <input type="number" id="quantity" name="quantity" min="1" max="5">
+    </div>
+    </div>
+            
+    <div class="gallery">
+    <a target="_blank" href="lamb.png">
+    <img src="lamb.png" alt="" width="200" height="200">
+    </a>
+    <div class="desc">Lamb
+    <label for="quantity"></label>
+    <input type="number" id="quantity" name="quantity" min="1" max="5">
+    </div>
+    </div>
+            
+    <div class="gallery">
+    <a target="_blank" href="beef.png">
+    <img src="beef.png" alt="" width="200" height="200">
+    </a>
+    <div class="desc">Beef
+    <label for="quantity"></label>
+    <input type="number" id="quantity" name="quantity" min="1" max="5">
+    </div>
+    </div>
+
+    <div class="gallery">
+    <a target="_blank" href="tomato.png">
+    <img src="tomato.png" alt="" width="200" height="200">
+    </a>
+    <div class="desc">Tomato
+    <label for="quantity"></label>
+    <input type="number" id="quantity" name="quantity" min="1" max="5">
+    </div>
+    </div>
+            
+    <div class="gallery">
+    <a target="_blank" href="rice.png">
+    <img src="rice.png" alt="" width="200" height="200">
+    </a>
+    <div class="desc">Rice
+    <label for="quantity"></label>
+    <input type="number" id="quantity" name="quantity" min="1" max="5">
+    </div>
+    </div>
+                
+    <div class="gallery">
+    <a target="_blank" href="icecream.png">
+    <img src="icecream.png" alt="" width="200" height="200">
+    </a>
+    <div class="desc">Ice cream
+    <label for="quantity"></label>
+    <input type="number" id="quantity" name="quantity" min="1" max="5">
+    </div>
+    </div>
+                
+    <div class="gallery">
+    <a target="_blank" href="mango.png">
+    <img src="mango.png" alt="" width="200" height="200">
+    </a>
+    <div class="desc">Mango
+    <label for="quantity"></label>
+    <input type="number" id="quantity" name="quantity" min="1" max="5">
+    </div>
+    </div>
+
+
+        
+
+
+
+</body>
+
+
+
+
+</html>
